@@ -1,0 +1,27 @@
+h1 {
+    color : goldenrod;
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    /*background-image: url("Lord-Hanuman.jpg");   
+    background-size: cover; */
+    background-color: skyblue;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#message-el {   /*this will overwrite attribute of body for message part only */
+    font-style: italic;
+}
+button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;  /* padding is used to provide space between text and button border line */
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;  /* to remove sharp corners and make them round */
+    margin-bottom: 4px; /* to add space after button so that button don't appear merged */
+}
